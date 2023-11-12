@@ -1,2 +1,4 @@
 # captoneNode35
-yarn 
+how to run 
++ yarn
++ yarn start
