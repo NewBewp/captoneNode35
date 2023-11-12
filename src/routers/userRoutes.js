@@ -1,6 +1,6 @@
 import express from 'express';
-import { getUserDetail,getSavedImagesByUserId ,getCreatedImagesbyUserId,signUp,signIn,updateUser} from '../Controllers/userrController.js';
-import { checkToken } from '../Config/jwtConfig.js';
+import { getUserDetail,getSavedImagesByUserId ,getCreatedImagesbyUserId,signUp,signIn,updateUser} from '../controllers/userrController.js';
+import { checkToken } from '../config/jwtConfig.js';
 
 const userRoutes = express.Router();
 

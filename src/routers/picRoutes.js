@@ -13,10 +13,10 @@ import {
   checkIsSaved,
   deleteImage
 
-} from "../Controllers/picController.js";
+} from "../controllers/picController.js";
 
 import multer from "multer";
-import { checkToken } from "../Config/jwtConfig.js";
+import { checkToken } from "../config/jwtConfig.js";
 
 const picRoutes = express.Router();
 const storage = multer.diskStorage({

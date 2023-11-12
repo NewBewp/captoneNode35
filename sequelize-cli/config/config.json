@@ -2,10 +2,10 @@
     "development": {
       "username": "root",
       "password": "1234",
-      "database": "db_test",
+      "database": "PinterestDB",
       "host": "127.0.0.1",
       "dialect": "mysql",
-      "port":"330"
+      "port":"3307"
     }
   }
   

@@ -10,7 +10,7 @@ app.listen(8080);
 
 // localhost:8080/api/food/get-food
 // localhost:8080/api/user/get-user
-import rootRoutes from './Routes/rootRoutes.js';
+import rootRoutes from './routers/rootRoutes.js';
 
 app.use("/api",rootRoutes)
 
