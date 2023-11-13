@@ -3,9 +3,9 @@
 
 import { Sequelize } from 'sequelize';
 
-const sequelize = new Sequelize("db_pinterest", "root", "1234", {
+const sequelize = new Sequelize("PinterestDB", "root", "1234", {
     host: "localhost",
-    port: 3306,
+    port: 3307,
     dialect: "mysql"
 })
 
